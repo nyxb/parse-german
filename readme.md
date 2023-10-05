@@ -9,22 +9,20 @@ A natural language parser for the German language, that produces [nlcst][]. This
 
 ## Contents
 
-- [parse-german](#parse-german)
-  - [Contents](#contents)
-  - [What is this?](#what-is-this)
-  - [When should I use this?](#when-should-i-use-this)
-  - [Install](#install)
-  - [Use](#use)
-  - [API](#api)
-    - [`ParseGerman()`](#parsegerman)
-  - [Algorithm](#algorithm)
-  - [Types](#types)
-  - [Compatibility](#compatibility)
-  - [Security](#security)
-  - [Related](#related)
-  - [Contribute](#contribute)
-  - [License](#license)
-  - [Acknowledgement](#acknowledgement)
+*   [What is this?](#what-is-this)
+*   [When should I use this?](#when-should-i-use-this)
+*   [Install](#install)
+*   [Use](#use)
+*   [API](#api)
+    *   [`ParseGerman()`](#parsegerman)
+*   [Algorithm](#algorithm)
+*   [Types](#types)
+*   [Compatibility](#compatibility)
+*   [Security](#security)
+*   [Related](#related)
+*   [Contribute](#contribute)
+*   [License](#license)
+*   [Acknowledgement](#acknowledgement)
 
 ## What is this?
 
@@ -67,7 +65,7 @@ console.log(inspect(tree))
 
 ### `ParseGerman()`
 
-Create a new parser for the German language. Adapted from the `ParseEnglish` parser, and extends `ParseLatin`. 
+Create a new parser for the German language. Adapted from the `ParseEnglish` parser, and extends `ParseLatin`.
 
 ## Algorithm
 
@@ -106,16 +104,30 @@ This parser is an adaptation of the `parse-english` parser created by [Titus Wor
 <!-- Definitions -->
 
 [build-badge]: https://img.shields.io/badge/build-passing-brightgreen
+
 [build]: https://github.com/nyxb/parse-german/actions
+
 [coverage-badge]: https://img.shields.io/badge/coverage-100%25-brightgreen
+
 [coverage]: https://codecov.io/gh/nyxb/parse-german
+
 [downloads-badge]: https://img.shields.io/badge/downloads-100%2B-brightgreen
+
 [downloads]: https://npmjs.com/package/parse-german
+
 [size-badge]: https://img.shields.io/badge/size-10kB-brightgreen
+
 [size]: https://bundlephobia.com/result?p=parse-german
+
 [nyxb]: https://github.com/nyxb
+
 [contribute]: https://opensource.guide/how-to-contribute/
+
 [license]: LICENSE
+
 [author]: https://wooorm.com
+
 [nlcst]: https://github.com/syntax-tree/nlcst
+
+```
 ```
