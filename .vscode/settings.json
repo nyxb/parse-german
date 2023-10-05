@@ -1,0 +1,67 @@
+{
+  // Enable the flat config support
+  "eslint.experimental.useFlatConfig": false,
+
+  // Silent the stylistic rules in you IDE, but still auto fix them
+  "eslint.rules.customizations": [
+    { "rule": "@stylistic/*", "severity": "warn" },
+    { "rule": "style*", "severity": "warn" },
+    { "rule": "*-indent", "severity": "warn" },
+    { "rule": "*-spacing", "severity": "warn" },
+    { "rule": "*-spaces", "severity": "warn" },
+    { "rule": "*-order", "severity": "warn" },
+    { "rule": "*-dangle", "severity": "warn" },
+    { "rule": "*-newline", "severity": "warn" },
+    { "rule": "*quotes", "severity": "warn" },
+    { "rule": "*semi", "severity": "warn" }
+  ],
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml"
+  ],
+
+  /** EDITOR FORMATING */
+  "editor.formatOnSave": false,
+  "editor.insertSpaces": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false,
+    "source.fixAll.stylelint": false,
+    "source.organizeImports": false
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+
+  /**
+    * STYLELINT SETUP
+    */
+  "stylelint.enable": true,
+  "stylelint.validate": [
+    "css",
+    "scss",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  /**
+    * to use lint formatting on save
+    */
+  "eslint.format.enable": false,
+  "prettier.enable": false,
+
+  /**
+    * EDITOR UX
+    */
+  "files.insertFinalNewline": true,
+  "editor.trimAutoWhitespace": false,
+  "files.encoding": "utf8",
+  "editor.tabSize": 3
+}
