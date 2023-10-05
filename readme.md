@@ -63,6 +63,8 @@ const tree = new ParseGerman().parse('Dies ist ein einfacher deutscher Satz.')
 console.log(inspect(tree))
 ```
 
+This yields a syntax tree structure that represents the sentence, breaking down its grammatical components and their hierarchical relationships.
+
 ## API
 
 ### `ParseGerman()`
@@ -71,7 +73,7 @@ Create a new parser for the German language. Adapted from the `ParseEnglish` par
 
 ## Algorithm
 
-Incorporates all features of `parse-latin`, with additional support for German language-specific elements.
+Incorporates all features of `parse-latin`, with additional support for German language-specific elements like compound nouns, umlauts, and special characters, ensuring a more accurate parsing of the German language.
 
 ## Types
 
@@ -130,6 +132,3 @@ This parser is an adaptation of the `parse-english` parser created by [Titus Wor
 [author]: https://wooorm.com
 
 [nlcst]: https://github.com/syntax-tree/nlcst
-
-```
-```
